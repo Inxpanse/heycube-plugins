@@ -3,18 +3,7 @@
   "mcpServers": {
     "heycube": {
       "type": "streamable-http",
-      "url": "https://api.heycube.ai/mcp",
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "oauth",
-            "client": {
-              "mode": "dcr"
-            },
-            "baseScopes": ["heycube"]
-          }
-        }
-      }
+      "url": "https://api.heycube.ai/mcp"
     }
   }
 }
