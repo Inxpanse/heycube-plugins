@@ -1,0 +1,20 @@
+{
+  "name": "heycube",
+  "interface": {
+    "displayName": "HeyCube"
+  },
+  "plugins": [
+    {
+      "name": "heycube",
+      "source": {
+        "source": "local",
+        "path": "./plugins/heycube"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

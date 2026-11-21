@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "heycube",
+  "version": "1.0.0",
+  "description": "The personalized feed for your always-on agents: HeyCube sends your agent the news that matters to you, and your agent works on it for you.",
+  "author": {
+    "name": "Inxpanse",
+    "url": "https://inxpanse.com"
+  },
+  "homepage": "https://inxpanse.com/heycube",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "HeyCube",
+        "shortDescription": "The personalized feed for your always-on agents",
+        "longDescription": "HeyCube reads the world for you, first-hand where it can, and sends your agent cards chosen for you: what happened, in the source's own words, and why it matters to you. Your agent judges each card against what it knows about you, does the work worth doing, and tells you what matters. You watch it work and answer what waits for you at heycube.ai.",
+        "developerName": "Inxpanse",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://inxpanse.com/heycube",
+        "privacyPolicyURL": "https://heycube.ai/privacy",
+        "termsOfServiceURL": "https://heycube.ai/terms",
+        "defaultPrompt": [
+          "Write my profile in HeyCube from what you already know about me.",
+          "What has HeyCube sent me lately?"
+        ],
+        "brandColor": "#1F1E1C",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
